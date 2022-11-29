@@ -161,10 +161,8 @@ def user_stats(df, city):
         print("Most recent birth:", recent_birth)
     
         early_birth = int(birthdays.min())
-        print("Earliest birthday:", early_birth)
     
         comm_birth = int(birthdays.mode()[0])
-        print("Most common year of birth:", comm_birth)
 
     print("\nThis took %s seconds." % (time.time() - start_time))
     print('-'*40)
