@@ -3,8 +3,7 @@
 ### Date created
 Project created on 27 November 2022. README.md created on 30 November 2022.
 
-### Project Title
-Replace the Project Title
+### Explore US Bikeshare Data
 
 ### Description
 Describe what your project is about and what it does
