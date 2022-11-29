@@ -142,7 +142,8 @@ def user_stats(df, city):
         
     print('\nCalculating User Stats...\n')
     start_time = time.time()
-    
+
+    # takes city as input - washington does not have gender/birth records
     if city == "washington":
         print("No gender and birth year records are available for Washington, DC.")
         
