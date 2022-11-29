@@ -11,6 +11,9 @@ This project looks at the Bikeshare data for 3 different cities (Chicago, New Yo
 ### Files used
 bikeshare.py, chicaco.csv, washington.csv, new_york_city,csv (last 3 files not included in repo)
 
+### Additional Details
+Gender and birth year records are available (except in Washington).
+
 ### Credits
 resources used:
 - [statology.org](https://www.statology.org) for clarification on how groupby works
