@@ -5,6 +5,7 @@ import numpy as np
 CITY_DATA = { 'chicago': 'chicago.csv',
               'new york city': 'new_york_city.csv',
               'washington': 'washington.csv' }
+cities = ["chicago", "washington", "new york city"]
 months = ["january", "february", "march", "april", "may", "june", "all"]
 days = ["all", "sunday", "monday", "tuesday", "wednesday", "thursday", "friday", "saturday"]
 
@@ -22,7 +23,7 @@ def get_filters():
     # TO DO: get user input for city (chicago, new york city, washington). HINT: Use a while loop to handle invalid inputs
     while True:
         city = input("Enter a city name (chicago, new york city, washington): ").lower()
-        if city in ("chicago", "washington", "new york city"):
+        if city in cities:
             break
         else: print("Invalid input. Please try again!")
 
@@ -158,13 +159,12 @@ def user_stats(df, city):
         birthdays = df['Birth Year'].sort_values()
     
         recent_birth = int(birthdays[0])
-        print("Most recent birth:", recent_birth)
-    
         early_birth = int(birthdays.min())
-        print("Earliest birthday:", early_birth)
-    
         comm_birth = int(birthdays.mode()[0])
-        print("Most common year of birth:", comm_birth)
+        
+        print("Most recent birth:", recent_birth,
+              "\nEarliest birthday:", early_birth,
+              "\nMost common year of birth:", comm_birth)
 
     print("\nThis took %s seconds." % (time.time() - start_time))
     print('-'*40)
