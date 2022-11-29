@@ -13,6 +13,10 @@ bikeshare.py, chicaco.csv, washington.csv, new_york_city,csv (last 3 files not i
 
 ### Additional Details
 Gender and birth year records are available (except in Washington).
+Statistics calculated include:
+- Most frequent travel times
+- Most popular stations
+- User statistics  
 
 ### Credits
 resources used:
