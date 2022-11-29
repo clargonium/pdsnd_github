@@ -6,7 +6,7 @@ Project created on 27 November 2022. README.md created on 30 November 2022.
 ### Explore US Bikeshare Data
 
 ### Description
-Describe what your project is about and what it does
+This project looks at the Bikeshare data for 3 different cities (Chicago, New York City and Washington) and provides/calculates usage patterns, including an option to look at the raw data.
 
 ### Files used
 Include the files used
