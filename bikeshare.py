@@ -158,11 +158,10 @@ def user_stats(df, city):
         birthdays = df['Birth Year'].sort_values()
     
         recent_birth = int(birthdays[0])
-        print("Most recent birth:", recent_birth)
-    
         early_birth = int(birthdays.min())
-    
         comm_birth = int(birthdays.mode()[0])
+        
+        print("Most recent birth:", recent_birth)
 
     print("\nThis took %s seconds." % (time.time() - start_time))
     print('-'*40)
