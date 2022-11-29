@@ -12,4 +12,8 @@ This project looks at the Bikeshare data for 3 different cities (Chicago, New Yo
 bikeshare.py, chicaco.csv, washington.csv, new_york_city,csv (last 3 files not included in repo)
 
 ### Credits
-It's important to give proper credit. Add links to any repo that inspired you or blogposts you consulted.
+resources used:
+- [statology.org](https://www.statology.org) for clarification on how groupby works
+- [pandas documentation](https://pandas.pydata.org/pandas-docs/stable/index.html) for syntax reference
+- [geeksforgeeks.org](https://www.geeksforgeeks.org) for syntax reference
+- [udacity knowledge](https://knowledge.udacity.com)
